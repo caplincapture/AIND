@@ -3,7 +3,7 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: For each of the units in the unit list, if a and b are the only possible values for one of two boxes, those a and b values can be eliminate from the other unsolved boxes in the unitt. The "reduce_puzzle" function performs this, using the "elimination" and "only-choice" functions.
+A: Constraint propagation is the general term for propagating the implications of a constraint on one variable onto other variables.  This naked_twins function is an example of constraint propagation because, for each of the units in the unit list, if a and b are the only possible values for one of two boxes, those a and b values can be eliminated from the other unsolved boxes in the unit. The "reduce_puzzle" function performs this, using the "elimination" and "only-choice" functions.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
